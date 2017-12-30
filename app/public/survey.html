@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Survey Questions</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="css/materialize.css"/>
+    <link type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="/" class="brand-logo">Friend Finder</a>
+
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="header center">Survey Questions</h1>
+            <br>
+            <br>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="name" type="text" class="validate">
+                            <label for="name">Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="photo_link" type="text" class="validate">
+                            <label for="photo_link">Link to Photo Image</label>
+                        </div>
+                    </div>
+                    <div class="dropdownSection">
+                        <label for="question_1" id="dropdownLabel">Your mind is always buzzing with unexplored ideas and plans.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <!-- <div class="dropdownSection">
+                        <label id="dropdownLabel">Generally speaking, you rely more on your experience than your imagination.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">You rarely do something just out of sheer curiosity.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">People can rarely upset you.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">It is often difficult for you to relate to other people’s feelings.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">In a discussion, truth should be more important than people’s sensitivities.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">You rarely get carried away by fantasies and ideas.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">You think that everyone’s views should be respected regardless of whether they are supported by facts
+                            or not.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="dropdownSection">
+                        <label id="dropdownLabel">You feel more energetic after spending time with a group of people.</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                    </div> -->
+                    <!-- <a class="waves-effect btn-large" id="submit-button">
+                        <i class="material-icons right">keyboard_arrow_right</i>Submit</a> -->
+                        <button id="submit button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+        </div>
+        <div class="col l3 s12">
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>
+                    <a class="orange-text text-lighten-3" href="http://materializecss.com">API Friends List</a>
+                    |
+                    <a class="orange-text text-lighten-3" href="http://materializecss.com">GitHub Repo</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script href="./assets/js/materialize.js"></script>
+    <script href="./assets/js/init.js"></script>
+
+    <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+    <script type="text/javascript">
+        $(".submit").on("click", function (event) {
+            event.preventDefault();
+
+            // Here we grab the form elements
+            var newSurveySubmission = {
+                name: $("#name").val().trim(),
+                imageURL: $("#photo_link").val().trim(),
+                scores: [$("#question_1").val().trim(), $("#question_2").val().trim()]
+            };
+            console.log(newSurveySubmission);
+        });
+    </script>
+</body>
+</html>

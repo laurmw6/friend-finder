@@ -1,0 +1,50 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#dropdownLabel {
+  font-size: 1rem;
+  color: gray;
+}
+
+.dropdownSection {
+  padding-bottom: 35px;
+}
+
+.browser-default {
+  color: #bfbfbf;
+  font-size: .9rem;
+  border-color: #bfbfbf;
+  margin-top: 7px;
+}
+
+.input-field {
+  color: teal;
+}
+
+#first_name {
+  color: black;
+}
+
+.navbar {
+  background-color: #2b5865;
+}
+
+#submit-button {
+  background-color: #ffa700;
+}
+
+.page-footer {
+  background-color: #2b5865;
+}
